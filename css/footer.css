@@ -1,0 +1,40 @@
+footer{
+    background-color: #111111;
+}
+
+footer *{
+    color: #666666;
+}
+
+footer h5{
+    color: white;
+    text-indent: 10px;
+}
+
+footer #copy{
+    background-color: #313131;
+}
+
+footer .fa{
+    color:#199546;
+}
+
+footer #social-ntw-footer .nav-item .nav-link i{
+    color: white;
+    font-size: 24px;
+}
+
+footer #legal .nav-item{
+
+}
+
+footer #legal .nav-item a.nav-link{
+    display: inline-block;
+    margin: .25rem;
+    width: auto !important;
+}
+
+footer #nav-numbers-emails .nav-item .nav-link{
+    font-family: 'Lato';
+}
+

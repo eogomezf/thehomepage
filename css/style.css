@@ -1,0 +1,561 @@
+body{
+    padding-top: 74px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+
+/***************************
+******* Carousel ***********
+****************************/
+
+#wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption{
+    top: 2%;
+    left: 0;
+    right: 0;
+}
+
+#wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption h3{
+    font-family: 'Crimson Text';
+    font-size: 18px;
+    font-weight: 400;
+text-shadow: 2px 2px 2px black;
+}
+
+#wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption p{
+    font-family: 'Crimson Text';
+    font-size: 12px;
+    text-align: justify;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+#wrapper #myCarousel #carousel-info{
+    width: 100%;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#wrapper #myCarousel #carousel-info .carousel-info-card{
+    position: relative;
+    background-color: rgba(25,150,70,1);
+    /*max-width: 33%;*/
+    max-width: 100%;
+    /*margin: 5px;*/
+    margin-bottom: 60px;
+    padding:40px 10px;
+    box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.3);
+}
+
+#wrapper #myCarousel #carousel-info .carousel-info-card .rounded-circle{
+    position: absolute;
+    top: -33px;
+    width: 66px;
+    height: 66px;
+    left: calc(50% - 33px);
+    border:4px solid #199546;
+}
+
+#wrapper #myCarousel #carousel-info .carousel-info-card .read-more{
+    position: absolute;
+    bottom: -22px;
+    width: 120px;
+    height: 44px;
+    left: calc(50% - 60px);
+    border-radius: 33px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border-color: #199546;
+    cursor: pointer;
+}
+
+#wrapper #myCarousel #carousel-info .carousel-info-card .read-more:hover{
+    background-color: #eaeaea !important;
+}
+
+#wrapper #myCarousel #carousel-info #info-card-2 .read-more:hover{
+    background-color: #0e7c35 !important;
+}
+
+#wrapper #myCarousel #carousel-info .carousel-info-card:nth-child(2) .read-more{
+    background-color: #199546 ;
+    border-color: white;
+}
+
+#wrapper #myCarousel #carousel-info .carousel-info-card p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#wrapper #myCarousel #carousel-info .carousel-info-card .card-info-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#wrapper #myCarousel #carousel-info .carousel-info-card .card-info-text{
+    font-size: 14px;
+}
+
+/*** Seccion Recepcion ***/
+#wrapper .content-reception .reception-title{
+    position: relative;
+}
+
+#wrapper .content-reception .reception-title:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background-color: #e77842;
+}
+
+#wrapper .content-reception .reception-text{
+    color: #8C8C8C;
+}
+
+#wrapper .content-reception #container-reception-card .reception-card .rounded-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #e77842;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#wrapper .container-fluid .content-reception #container-reception-card .reception-card .rounded-circle:hover{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#wrapper .content-reception #container-reception-card .reception-card{
+    margin: 10px 40px;
+}
+
+#wrapper .content-reception #container-reception-card .reception-card .rounded-circle .fa{
+
+    font-size: 32px;
+    color: white;
+}
+
+#wrapper .container-fluid .content-reception #container-reception-card .reception-card .rounded-circle .fa:hover{
+
+    font-size: 34px;
+    color: #e77842;
+}
+
+#wrapper .content-reception #container-reception-card .reception-card .reception-card-title{
+   
+}
+
+
+
+/***Sección de Información de habitaciones***/
+#wrapper #our-rooms{
+    background-color: #262827;
+}
+
+#wrapper #our-rooms *{
+    color: white;
+}
+
+#wrapper #our-rooms .btn-go-reserve{
+    border-color: #199546;
+    background-color: white;
+    color: #68AF06;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 12px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#wrapper #our-rooms .btn-go-reserve:hover{
+    border-color: #68AF06;
+    background-color: #373938;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#wrapper .btn-go-reserve{
+    border-color: #199546;
+    background-color: white;
+    color: #68AF06;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 12px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#wrapper .btn-go-reserve:hover{
+    border-color: #68AF06;
+    background-color: #373938;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+#wrapper #info-rooms #info-room-title{
+    font-size: 24px;
+}
+
+#wrapper #img-decoration{
+    width: 65%;
+}
+
+#wrapper #info-room-subtitle{
+    font-size: 20px;
+}
+
+#wrapper #our-rooms #our-rooms-title{
+    color: white;
+}
+
+#wrapper #our-rooms #rooms-footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#wrapper #our-rooms #rooms-footer #rooms-footer-title{
+    position: absolute;
+    top: 60px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    width: 80%;
+    left: 10%;
+}
+
+iframe#home-video{
+    height: 190px;
+}
+
+
+
+/*******************
+*** Small Device ***
+********************/
+@media (min-width:576px){
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption{
+        top: 10%;    
+    }
+    
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption h3{
+        font-size: 28px;
+    }
+    
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption p{
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    iframe#home-video{
+        height: 300px;
+    }
+}
+
+/********************
+*** Medium Device ***
+*********************/
+@media only screen and (min-width:768px){
+
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption h3{
+        font-size: 38px;
+    }
+
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption .btn-caption{
+        padding: 14px;
+        text-transform: uppercase;
+        background-color: #e88021;
+        border-color: white;
+        color: white;
+        border-radius: 0;
+    }
+
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption .btn-caption:hover{
+        background-color: white;
+        color: #494949;
+    }
+    
+    #wrapper #myCarousel #carousel-info{
+        flex-wrap: nowrap;    
+    }
+
+    iframe#home-video{
+        height: 400px;
+    }
+}
+
+/*******************
+*** Large Device ***
+********************/
+@media only screen and (min-width:992px){
+    body{
+        padding-top: 80px;
+    }
+    
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption{
+        top: 14%;            
+    }
+    
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption h3{
+        font-size: 48px;
+    }
+    
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 18px;
+        padding: 20px 10%;
+        text-align: center;
+    }
+    
+    #wrapper #info-rooms #info-room-title {
+        font-size: 32px;
+    }
+    
+        #wrapper #img-decoration {
+        width: 240px;
+    }
+
+    iframe#home-video{
+        height: 480px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    #wrapper #myCarousel .carousel-inner .carousel-item .carousel-caption{
+        top: 8%;
+    }
+
+    #wrapper #myCarousel #carousel-info{
+        position: absolute;
+        bottom:10%;
+        width: 90%;
+        padding: 0;
+        left: 5%;
+    }
+
+    #wrapper #myCarousel #carousel-info .carousel-info-card{
+        position: relative;
+        background-color: rgba(25,150,70,0.7);
+        max-width: 33%;
+        margin: 5px;
+        padding:40px 10px;
+        box-shadow: none;
+    }
+
+    iframe#home-video{
+        height: 550px;
+    }
+}
+
+
+@media only screen and (min-width: 1920px){
+    div.zopim{
+        right: calc(50% - 940px) !important;
+    }
+}
+
+/**********************************************
+*********** Animation Images Rotate ***********
+/**********************************************/
+figure.room{
+    margin:0;
+    padding:0;
+    position:relative;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+figure.room .price{
+    font-family: 'Lato';
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    background-color: rgba(39,174,97,0.7);
+    color:white;
+    z-index: 11;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    left: calc(50% - 50px);
+    transition-duration: 500ms;
+}
+
+figure.room img {
+    display:block;
+    position:relative;
+    z-index:10;
+}
+
+figure.room figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+/*    padding:15px;*/
+    background-color:#4A82DF;
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+}
+
+figure.room figcaption h4,
+figure.room figcaption p{
+    color:white;
+}
+
+figure.room figcaption p{
+    margin-top: 15px;
+}
+
+figure.room img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+
+figure.room:hover img{
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg)
+}
+
+figure.room:hover .price{
+    transform: translateY(-50px);
+}
+
+figure.room:hover figcaption{
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+/******************************
+******* Parallax Effect *******
+*******************************/
+#banner-offer{
+    padding: 140px 20px;
+    background-image: url(../images/Parallax.jpg);
+
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#banner-hotel{
+    padding: 140px 20px;
+    background: url("../images/Banner-Hotel.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-restaurante{
+    padding: 140px 20px;
+    background: url("../images/Banner-Restaurante.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-cafeteria{
+    padding: 140px 10px;
+    background: url("../images/Banner-Principal.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-eventos{
+    padding: 140px 10px;
+    background: url("../images/Banner-Eventos.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-nosotros{
+    padding: 140px 10px;
+    background: url("../images/Banner-Nosotros.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-informacion{
+    padding: 140px 10px;
+    background: url("../images/Banner-Informacion.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-naturaleza{
+    padding: 140px 10px;
+    background: url("../images/Banner-Naturaleza.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-paquete{
+    padding: 140px 10px;
+    background: url("../images/Banner-Paquete.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-religion{
+    padding: 140px 10px;
+    background: url("../images/Banner-TReligioso.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner-historia{
+    padding: 140px 10px;
+    background: url("../images/Banner-THistorico.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#banner-offer #rounded{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 75px 0;
+}

@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: 'Adobe Hebrew';
+    src:url(../fonts/Adobe-Hebrew-Regular.otf) format("opentype");
+}
+
+@font-face{
+    font-family: 'Crimson Text';
+    src:url(../fonts/CrimsonText-Regular.ttf) format("truetype");
+}
+
+
+/*************
+*** HEADER ***
+**************/
+header{
+    max-width: 1920px;
+    box-shadow: 0px 2px 3px rgba(100,100,100,0.5);
+    transition: all 500ms;
+}
+
+header #sup-header{
+    background-color: #2A2A2A;
+}
+
+header #sup-header .nav .nav-item{
+    /*border:1px solid white;*/
+}
+
+header #sup-header .nav .nav-item .nav-link{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+header #sup-header #nav-tel .nav-item .nav-link{
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #9D9D9D;
+}
+
+header #sup-header #nav-tel .nav-item .nav-link .fa{
+    color: #199546;
+}
+
+header #sup-header #nav-lang{    
+    width: 90px;
+    margin-right: 25px;
+    background-color: #199546;
+}
+
+header #sup-header #nav-lang .nav-item .nav-link{
+    font-size: 10px;
+    color:white;
+}
+
+header #sup-header #nav-lang .nav-item .nav-link .fa-inverse{
+    color:#199546;
+}
+
+header .navbar{
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header .navbar .navbar-brand img{
+    transition: all 500ms;
+    width: 100px;
+}
+
+header .navbar #text-logo{
+    margin-left: -30px;
+    font-family: 'Adobe Hebrew';
+    width: auto;
+    color: #E77842;
+}
+
+header .navbar #text-logo-title{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+header .navbar #text-logo-subtitle{
+    font-size: 12px;
+    line-height: 0;
+    color: green;
+}
+
+header .navbar #nav-mobile-tel .nav-item .nav-link{
+    color: black;
+}
+
+header .navbar #nav-mobile-social-networks .nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header .navbar #nav-mobile-social-networks .nav-item .nav-link{
+    font-size: 28px;
+}
+
+
+header .navbar #navbarLinkPage{
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
+    background-color: inherit;
+}
+
+header .navbar  #nav-tel .nav-item .nav-link{
+    color: black;
+}
+
+header .navbar .navbar-nav .nav-item{
+    padding: .3rem 0.1rem;
+    transition: all .5s;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+header .navbar .navbar-nav .nav-item:hover{
+    background-color: rgba(101,238,185,0.3);
+}
+
+header .navbar .navbar-nav .nav-item.active{
+    background-color: #199546;
+}
+
+header .navbar .navbar-nav .nav-item.active .nav-link{
+    color:white;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+}
+
+/*************************
+*** Large Device ***
+**************************/
+@media only screen and (min-width: 992px){
+
+    header .navbar .navbar-nav .nav-item{
+        /*padding:6px;*/
+    }
+    
+
+    header .navbar .navbar-brand img{
+        width: 140px !important;
+    }
+
+    header .navbar #text-logo{
+        margin-left: -45px;
+        color: #E77842;
+    }
+
+    header .navbar #text-logo-title{
+        font-size: 16px;
+    }
+
+    header .navbar #text-logo-subtitle{
+        font-size: 12px;
+        line-height: 0.5;
+        color: green;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    header .navbar .navbar-brand img{
+        width: 250px;
+    }
+
+    header .navbar .navbar-nav .nav-item{
+        padding:6px 10px;
+    }
+
+    header .navbar #text-logo-title{
+        font-size: 20px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1920px){
+    header{
+        left: calc(50% - 960px) !important;
+    }
+}
+
+/***********************
+*** Animation Header ***
+************************/
+.narrowLogo{
+    width: 80px !important;
+}
+
+@media only screen and (min-width: 1200px){
+    .narrowLogo{
+        width: 120px !important;
+    }
+}
+
+
+
+/**************/
+@media only screen and (max-width: 991px){
+   .navbar-left{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        overflow-y: scroll;
+        z-index: 1000;
+        transition: all ease 500ms;
+
+    }
+
+    .navbar-left-show{
+        left: 1rem !important;
+    }
+
+    .glass{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        display: none;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 999;
+    } 
+}
